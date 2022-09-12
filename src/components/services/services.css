@@ -1,0 +1,140 @@
+.services-bg {
+    background-image: url(../../../public/images/services/services-bg.png);
+    background-repeat: no-repeat;
+    /* height: 550px;
+    width: 1345px; */
+    width: 1351px;
+    height: 700px;
+}
+.card-css{
+    padding-top: 3em;  
+    font-family: 'Rubik', sans-serif;
+  }
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: DodgerBlue; */
+  }
+  .card-container > div {
+    background-color: #456BB4;
+  width: 180px;
+  /* margin: 10px; */
+  text-align: center;
+  height: 200px;
+  margin-top: 2.5em;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2)
+  }
+.services-img-vec1 {
+    margin-top: 206px
+}
+
+.services {
+    margin: 160px;
+}
+
+.services-h1-color {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 500;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.services-center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-services {
+    color: #fff;
+    margin-top: 50px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 500;
+}
+
+.our-client-bg {
+    background-image: url(../../../public/images/services/ourclient-bg.png);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 300px;
+}
+
+.our-title-center {
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: #456BB4;
+}
+
+.indutries-box {
+    width: 200px;
+    height: 200px;
+}
+
+.card-p {
+    font-weight: 500;
+    font-size: xx-large;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.hex {
+    width: 165px;
+    display: inline-block;
+    margin: -48px 84px;
+    color: #557097;
+    filter: url('#goo');
+  
+}
+
+
+.hex:hover {
+    transform: scale(1.1);
+}
+
+.hex::before {
+    content: "";
+    display: block;
+    background: currentColor;
+    padding-top: 114%;
+    /* 100%/cos(30)  */
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+}
+
+.hex-img {
+    margin-top: -167px;
+    position: absolute;
+    width: 96px;
+    margin-left: 29px
+}
+
+.title {
+    color: #fff;
+    margin-top: -68px;
+    position: absolute;
+    margin-left: 40px;
+    width: 133px;
+    font-weight: 500;
+}
+
+.indutries-h1 {
+    color: #456BB4;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+
+}
+.indutries-text
+{
+    margin-top: 126px
+}
+.indutries-section
+{
+    margin-bottom: 100px;
+}
+.our-client-section
+{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,146 @@
+.partner-header {
+    /* background-image: url(../../../public/images/header-partner.png); */
+    background-repeat: no-repeat;
+    height: 550px;
+    /* width: 1400px; */
+    object-fit: contain
+}
+
+.partner-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.partner-header-h1 {
+    position: relative;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 500;
+    margin-top: 40px
+}
+
+.header-p {
+    color: #fff;
+    /* font-family: 'Rubik', sans-serif; */
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+
+.input-field {
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #456BB4;
+}
+
+::placeholder {
+    color: #CCCCCC !important;
+    opacity: 0.5 !important;
+}
+
+:focus-visible {
+    outline: #456BB4 auto 1px !important;
+    outline-color: #456BB4 !important;
+    outline-style: auto !important;
+    outline-width: 1px !important;
+}
+
+.form-textarea {
+    width: 200%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1.2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #456BB4;
+}
+
+.h1-text {
+    color: #456BB4;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+
+
+.contact-submit {
+    background-color: #456BB4;
+    background: '#456BB4';
+    border: none;
+    width: 65%;
+    height: 34px;
+    border-radius: 5;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 90px
+}
+
+.column-change {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.down-img {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.all-img {
+    height: 60%;
+    width: 60%;
+    margin-right: 168px;
+}
+
+
+.image-space {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.space {
+    margin-top: -17px
+}
+
+.partner-p {
+    font-weight: 600;
+    color: #000;
+    padding-left: 10em
+}
+
+.get-touch-space {
+    display: flex;
+    justify-content: center;
+}
+
+.img-btw {
+    display: flex;
+    flex-direction: row;
+}
+.img-vec-line
+{
+    margin-top: -31em
+}
+
+
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 60px
+}

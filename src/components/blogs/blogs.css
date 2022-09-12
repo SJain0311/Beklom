@@ -1,0 +1,138 @@
+.blogs-bg {
+    background-image: url(../../../public/images/blogs/blog-bg.png);
+    background-repeat: no-repeat;
+    height: 730px;
+    width: 1305px;
+}
+
+.blogs-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9em;
+}
+
+.blogs-h1 {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 500;
+}
+
+.sec1-blogs-p1 {
+    font-weight: 500;
+    font-size: smaller;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 25px;
+}
+
+.sec1-blogs-space {
+    margin-left: -70px;
+}
+
+.sec1-blogs-margin {
+    margin-top: 5em;
+}
+
+.sec2-blogs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.frequently-bg {
+    background-image: url(../../../public/images/blogs/frequently-bg.png);
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 1290px;
+    margin-top: 25px;
+}
+
+.frequently-content {
+    padding: 50px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.frequently-h2 {
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.frequently-p {
+    padding-top: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.sub-blog-content {
+    display: flex;
+    justify-content: center;
+    margin-left: 45pxx;
+}
+
+.sub-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+    color: #456BB4;
+    font-size: small;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.blog-box-size {
+    background: transparent;
+    width: 30em;
+    margin: 15px;
+    border-radius: 5px;
+
+}
+
+.blogs-sub-btn {
+    width: 12em;
+    margin-left: 7em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.env-img {
+    margin-top: -22em;
+    margin-left: 113px
+}
+
+/* Blog-categories */
+.blog-cate-bg {
+    background-color: #445D80;
+    height: 100px;
+    width: 1355px;
+}
+
+.blog-cate-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.blog-cate-p {
+    font-weight: 600;
+    margin-top: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.blog-cate-icon {
+    margin-left: 20px;
+}
+
+.blog-caterorie-h1 {
+    color: #456BB4;
+    margin: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.blog-img-footer {
+    margin-bottom: 25px;
+}

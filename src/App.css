@@ -1,0 +1,85 @@
+/* Navbar */
+.link-font {
+    font-size: 500;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+/* logo */
+.logo {
+    margin-left: 150;
+    width: 130px;
+    
+}
+.nav-link:focus, .nav-link:hover{
+    color:#fff !important;
+}
+
+
+/* Footer */
+
+/* Footer css start  */
+.btn-color {
+    background: #456BB4;
+    color: #fff;
+}
+.img-vec2
+{
+    margin-bottom: -144px
+    
+}
+.footer
+{
+    margin-top: 50px;
+    margin-left: -85;
+}
+
+.btn-subscribe {
+    border: none;
+    width: 112px;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.footer-bg {
+    background-image: url(../src/assets/images/footer-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.link-hide {
+    text-decoration: none;
+}
+
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff !important;
+}
+
+.footer-margin{
+    margin-top: 50px;
+    margin-left: -85px;
+}
+.hello{
+    display: grid;
+    grid-row:auto;
+}
+.navbar-expand-sm .navbar-nav .nav-link
+{
+    padding-right: 0rem
+}
+.logo-media
+{
+    width:130px
+}
+
+@media only screen and (max-width: 450px) {
+
+    /* Navbar */
+    .logo-media {
+        width: 40px;
+        margin-right: 240px;
+    }
+
+}
